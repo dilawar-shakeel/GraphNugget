@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-core
+langchain-community
+langchain-openai
+beautifulsoup4
+discord.py
+python-dotenv
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

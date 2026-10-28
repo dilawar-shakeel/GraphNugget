@@ -1,0 +1,29 @@
+[project]
+name = "graphnugget"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dilawar Shakeel", email = "acct7415@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "discord-py>=2.7.1",
+    "google-api-python-client>=2.201.0",
+    "google-auth-httplib2>=0.4.4",
+    "google-auth-oauthlib>=1.5.0",
+    "langchain>=1.4.7",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.0",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.18",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+graphnugget = "graphnugget:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
